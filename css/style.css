@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, h1, h2, h3, p, a, img, ul, li, article, footer, header, nav, section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, footer, header, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+html{
+	width: 900px;
+}
+
+header>img {
+	height: 100px;
+}
+
+header>section {
+	display: inline-block;
+	vertical-align: top;
+	padding: 0;
+	margin: 0;
+}
+
+header>section>h1 {
+	font-size: 80px;
+	width: 300px;
+	height: 80px;
+	font-family: Yellowtail;
+}
+
+header>section>h2 {
+	height: 16px;
+	font-size:16px;
+	width: 300px;
+	height: 10px;
+	padding: 0px;
+	margin: 0px;
+}
+
+header>nav {
+	text-decoration: none;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	margin-top: 30px;
+}
+
+#rss{
+	margin-left: 10px;
+}
+
+hr{
+	margin-top: 30px;
+}
+
+header>nav>img {
+	height: 35px;
+	margin-left: .25px;
+}
+
+body>article {
+	display: inline;
+}
+
+article>h1 {
+	font-style: bold;
+	margin-top: 60px;
+	font-size: 45px;
+}
+
+article>section>h2 {
+	display: inline-block;
+	color: grey;
+}
+
+#mainimage{
+	display: block;
+}
+
+article>section>section{
+	display: inline-block;
+	float: right;
+}
+
+.print{
+	display: inline-block;
+	text-align: right;
+	color: grey;
+}
+
+article>p{
+	margin-top: 30px;
+	width: 901px;
+	text-indent: 2em;
+}
+
+.paperbackground{
+	margin-top: 30px;
+}
+
+article>ul{
+	/*background-image: url("/img/list-bg.png")*/
+	text-align: center;
+	margin-top: 30px;
+}
+
+article>ul>section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+article>ul>section>li{
+	width: 200px;
+	text-align: left;
+}
+
+footer>section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer>section>h1{
+	vertical-align: top;
+	font-size: 30px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+footer>section>a>button{
+	width: 200px;
+	background-color: brown;
+	color: #ffffff;
+	height: 30px;
+	margin-top: 25px;
+}
+
+footer>div{
+	display: inline-block;
+	margin-top: 0px;
+	width: 900px;
+	text-align: center;
+}
+
+footer>div>hr{
+	margin-top: 100px;
+}
+
+footer>div>img{
+	position: relative;
+	top: -35px;
+	padding: 10px;
+	background-color: white;
+}
+
+footer>h3{
+text-align: center;
+color: grey;
+}
