@@ -110,15 +110,16 @@ article>p{
 	text-indent: 2em;
 }
 
-.paperbackground{
-	margin-top: 30px;
+.callum{
+	display: inline-block;
+	background-image: url(../img/list-bg.png);
 }
 
-article>ul{
-	/*background-image: url("/img/list-bg.png")*/
+/*.paperbackground{
+	background-image: url(../img/list-bg.png)
 	text-align: center;
 	margin-top: 30px;
-}
+}*/
 
 article>ul>section{
 	display: inline-block;
