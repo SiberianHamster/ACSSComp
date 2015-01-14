@@ -22,44 +22,22 @@ ol, ul {
 	list-style: none;
 }
 
-html{
-	width: 900px;
-}
+/*Start of css*/
 
-header>img {
-	height: 100px;
-}
-
-header>section {
-	display: inline-block;
-	vertical-align: top;
-	padding: 0;
-	margin: 0;
-}
-
-header>section>h1 {
-	font-size: 80px;
-	width: 300px;
-	height: 80px;
+.site {
 	font-family: Yellowtail;
+	font-size: 35px;	
 }
 
-header>section>h2 {
-	height: 16px;
-	font-size:16px;
-	width: 300px;
-	height: 10px;
-	padding: 0px;
-	margin: 0px;
+.catchphrase {
+	font-family: Abel;
+	font-size: 8px;
 }
 
 header>nav {
 	text-decoration: none;
 	display: inline-block;
-	text-align: right;
-	float: right;
-	margin-top: 30px;
-}
+	margin-top: 10px;}
 
 #rss{
 	margin-left: 10px;
@@ -69,24 +47,14 @@ hr{
 	margin-top: 30px;
 }
 
-header>nav>img {
-	height: 35px;
-	margin-left: .25px;
-}
-
-body>article {
-	display: inline;
-}
-
 article>h1 {
 	font-style: bold;
 	margin-top: 60px;
 	font-size: 45px;
 }
 
-article>section>h2 {
-	display: inline-block;
-	color: grey;
+.datepost{
+	clear: both;
 }
 
 #mainimage{
@@ -95,13 +63,16 @@ article>section>h2 {
 
 article>section>section{
 	display: inline-block;
-	float: right;
+	/*float: right;*/
 }
 
-.print{
-	display: inline-block;
+.sideprint{
+	float:right;
 	text-align: right;
 	color: grey;
+}
+.print{
+	display: inline;
 }
 
 article>p{
