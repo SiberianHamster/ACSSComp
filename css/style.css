@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, h1, h2, h3, p, a, img, ul, li, article, footer, header, nav, section{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, footer, header, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+
+/*Start of css*/
+
+.site {
+	font-family: Yellowtail;
+	font-size: 35px;	
+}
+
+.catchphrase {
+	font-family: Abel;
+	font-size: 8px;
+}
+
+header>nav {
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 10px;}
+
+#rss{
+	margin-left: 10px;
+}
+
+hr{
+	margin-top: 30px;
+}
+
+article>h1 {
+	font-style: bold;
+	margin-top: 60px;
+	font-size: 45px;
+}
+
+.datepost{
+	clear: both;
+}
+
+#mainimage{
+	display: block;
+}
+
+article>section>section{
+	display: inline-block;
+}
+
+.sideprint{
+	float:right;
+	text-align: right;
+	color: grey;
+}
+.print{
+	display: inline;
+}
+
+article>p{
+	margin-top: 30px;
+	text-indent: 2em;
+}
+ul{
+	 -webkit-columns: 2;
+}
+
+.paperbackground{
+	background-image: url(../img/list-bg.png);
+	margin-top: 30px;
+}
+
+article>ul>section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+article>ul>section>li{
+	width: 200px;
+	text-align: left;
+}
+
+footer>section{
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer>section>h1{
+	font-size: 30px;
+}
+
+footer>section>a>button{
+	width: 200px;
+	background-color: brown;
+	color: #ffffff;
+	height: 30px;
+	margin-top: 25px;
+}
+
+footer>div{
+	display: inline-block;
+}
+
+footer>div>hr{
+	margin-top: 100px;
+}
+
+footer>div>img{
+	position: relative;
+	top: -35px;
+	padding: 10px;
+	background-color: white;
+}
+
+footer>h3{
+	color: grey;
+}
+
+.footer__iconandh3{
+	text-align: center;
+}
