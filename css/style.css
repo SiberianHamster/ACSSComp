@@ -63,7 +63,6 @@ article>h1 {
 
 article>section>section{
 	display: inline-block;
-	/*float: right;*/
 }
 
 .sideprint{
@@ -77,13 +76,14 @@ article>section>section{
 
 article>p{
 	margin-top: 30px;
-	width: 901px;
 	text-indent: 2em;
+}
+ul{
+	 -webkit-columns: 2;
 }
 
 .paperbackground{
 	background-image: url(../img/list-bg.png);
-	text-align: center;
 	margin-top: 30px;
 }
 
@@ -103,10 +103,7 @@ footer>section{
 }
 
 footer>section>h1{
-	vertical-align: top;
 	font-size: 30px;
-	padding-top: 0px;
-	margin-top: 0px;
 }
 
 footer>section>a>button{
@@ -119,9 +116,6 @@ footer>section>a>button{
 
 footer>div{
 	display: inline-block;
-	margin-top: 0px;
-	width: 900px;
-	text-align: center;
 }
 
 footer>div>hr{
@@ -136,6 +130,9 @@ footer>div>img{
 }
 
 footer>h3{
-text-align: center;
-color: grey;
+	color: grey;
+}
+
+.footer__iconandh3{
+	text-align: center;
 }
